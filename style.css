@@ -1,0 +1,46 @@
+h1{
+  text-align: center;
+  color: 	#800000;
+  margin-bottom: 1px;
+  text-shadow: 2px 2px red;
+}
+#footer{
+  text-align: right;
+}
+[href]{
+  font-style: italic;
+  text-decoration: none;
+  cursor: help;
+}
+p span{
+  color: #000080;
+  font-size: 20px;
+}
+section > h2{
+  font-style: italic;
+  letter-spacing: 2px;
+}
+*{
+  font-family: Tahoma;
+}
+h1 + span{
+  display: block;
+  text-align: center;
+  font-style: italic;
+  color: #800000;
+}
+b ~ li{
+  background: #FFE4C4;
+  list-style-type: square;
+}
+.sidebar{
+  float: right;
+  border-style: double;
+  border-color: #A52A2A;
+  line-height: 30px;
+  margin: 15px;
+  transform: rotate(5deg);
+}
+section p{
+  word-spacing: 5px;
+}
