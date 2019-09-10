@@ -1,4 +1,37 @@
+@font-face{
+  font-family: "Pacifico", cursive;
+  scr: url(../Pacifico/Pacifico-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Exo 2", sans-serif;
+  scr: url(../Exo_2/Exo2-Black.ttf);
+  scr: url(../Exo_2/Exo2-BlackItalic.ttf);
+  scr: url(../Exo_2/Exo2-Bold.ttf);
+  scr: url(../Exo_2/Exo2-BoldItalic.ttf);
+  scr: url(../Exo_2/Exo2-ExtraBold.ttf);
+  scr: url(../Exo_2/Exo2-ExtraBoldItalic.ttf);
+  scr: url(../Exo_2/Exo2-ExtraLight.ttf);
+  scr: url(../Exo_2/Exo2-ExtraLightItalic.ttf);
+  scr: url(../Exo_2/Exo2-Light.ttf);
+  scr: url(../Exo_2/Exo2-LightItalic.ttf);
+  scr: url(../Exo_2/Exo2-Medium.ttf);
+  scr: url(../Exo_2/Exo2-MediumItalic.ttf);
+  scr: url(../Exo_2/Exo2-Regular.ttf);
+  scr: url(../Exo_2/Exo2-RegularItalic.ttf);
+  scr: url(../Exo_2/Exo2-SemiBold.ttf);
+  scr: url(../Exo_2/Exo2-SemiBoldItalic.ttf);
+  scr: url(../Exo_2/Exo2-Thin.ttf);
+  scr: url(../Exo_2/Exo2-ThinItalic.ttf);
+  font-weight: normal;
+  font-style: black italic;
+}
+*{
+  font-family: "Pacifico";
+}
 h1{
+  font-family: "Exo 2";
   text-align: center;
   color: 	#800000;
   margin-bottom: 1px;
@@ -19,9 +52,6 @@ p span{
 section > h2{
   font-style: italic;
   letter-spacing: 2px;
-}
-*{
-  font-family: Tahoma;
 }
 h1 + span{
   display: block;
